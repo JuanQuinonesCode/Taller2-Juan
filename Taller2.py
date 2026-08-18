@@ -19,3 +19,6 @@ print("Correlación entre Ex_Showroom_Price y Selling_Price:", df['Ex_Showroom_P
 
 sns.violinplot(x=df['Year'])
 plt.show()
+
+sns.violinplot(x=df['KM_Driven'])
+plt.show() 
